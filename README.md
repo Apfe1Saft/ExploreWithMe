@@ -22,7 +22,9 @@ The application consists of two services:
 # Launch Instructions
 
 mvn clean package
+
 mvn install
+
 docker-compose
 
 # Links
