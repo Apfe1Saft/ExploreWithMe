@@ -1,36 +1,35 @@
 # java-explore-with-me
-Приложение ExploreWithMe.  
-Это приложение создано для того чтобы пользователи могли предлогать различные мероприятия. Могли искать себе компании по
-средством создания заявок на мероприятия. Приложение позволяет распределять события по подборкам, а также по
-пользовательским параметрам.  
-Ссылка на пул-реквест: https://github.com/Apfe1Saft/java-explore-with-me/pull/1
+The app Explore with me.  
+This application is created so that users can offer various events. They could look for companies using creating applications for events. The application allows you to distribute events by collections, as well as by
+user parameters.  
+Link to the pool request: https://github.com/Apfe1Saft/java-explore-with-me/pull/1
 
-# Реализация
+# Implementation
 
-Приложение состоит из двух сервисов:
+The application consists of two services:
 
-### Основной сервис
+### Main service
 
-* создание пользователей, событий, подборок событий и запросов
-* сортировка событий, категорий и подборок событий по пользовательским критериям
-* хранение информации о событиях, пользователях и прочем в базе данных
+* creation of users, events, collections of events, and queries
+* sorting of events, categories, and collections of events by user criteria
+* storing information about events, users, etc. in a database
 
-### Сервер статистики
+### Statistics Server
 
-* сбор статистики
-* хранение информации о статистике в базе данных
+* collecting statistics
+* storing statistics information in a database
 
-# Инструкция по запуску
+# Launch Instructions
 
-mvn clean package  
-mvn install  
-docker-compose up
+mvn clean package
+mvn install
+docker-compose
 
-# Ссылки
+# Links
 
-### Спецификации:
+### Specifications:
 
-Основной
-сервис https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-main-service-spec.json   
-Сервис
-статистики https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-stats-service-spec.json  
+Main
+service https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-main-service-spec .json   
+Service
+https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-stats-service-spec.json statistics
