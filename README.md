@@ -31,7 +31,6 @@ docker-compose
 
 ### Specifications:
 
-Main
-service https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-main-service-spec .json   
-Service
-https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-stats-service-spec.json statistics
+Main service https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-main-service-spec .json   
+Statistics service
+https://raw.githubusercontent.com/yandex-praktikum/java-explore-with-me/main/ewm-stats-service-spec.json 
